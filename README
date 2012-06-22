@@ -1,0 +1,8 @@
+Run: 
+
+    python3.2 alignerTester.py <inputSequence.fasta> <target gene length> \
+        <target number of reads> 
+
+This probably wont work until we've setup generalized binary calling within
+the program, allowed for the location/name of these binaries to be passed as
+arguments, or set this validation thing up as a proper pipeline. 
